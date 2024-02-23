@@ -1,0 +1,2 @@
+#!/bin/bash
+docker exec -it drf-auth-example-web-1 poetry run ./manage.py "$@"
